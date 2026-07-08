@@ -1,0 +1,9 @@
+name: amazon-product-analysis-agent
+description: Portable Amazon product analysis workflow for agents with browsing and Markdown-writing capability.
+prompt: |
+  Follow SKILL.md exactly.
+  Read references/evidence-policy.md, references/data-acquisition.md,
+  references/analysis-framework.md, and references/report-template.md before analysis.
+  Analyze the supplied Amazon ASIN or product URL.
+  Produce a reader-friendly Chinese Markdown report with evidence labels, citations,
+  business conclusions, risks, and P0/P1/P2 actions.

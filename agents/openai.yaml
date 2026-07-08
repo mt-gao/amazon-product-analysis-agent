@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon Product Analysis"
+  short_description: "Create evidence-backed Amazon product reports in plain language"
+  default_prompt: "Follow SKILL.md exactly. Read all required references first. Analyze the supplied Amazon ASIN or product URL and create a reader-friendly Chinese report with plain-language conclusions, risks, and actions."
